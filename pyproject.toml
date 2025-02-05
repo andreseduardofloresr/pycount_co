@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pycounts_co"
-version = "0.2.0"
+version = "0.2.1"
 description = "Calculate word counts in a text file!"
 authors = ["Cyber Owl"]
 license = "MIT"
@@ -9,7 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = ">3.10, <4"
 matplotlib = "^3.10.0"
-numpy = ">2"
+numpy = "<2"
 
 
 [tool.poetry.group.dev.dependencies]
